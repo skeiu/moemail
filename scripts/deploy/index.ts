@@ -13,7 +13,7 @@ import {
 } from "./cloudflare";
 
 const PROJECT_NAME = process.env.PROJECT_NAME || "moemail";
-const DATABASE_NAME = process.env.DATABASE_NAME || "moemail-db";
+const DATABASE_NAME = process.env.DATABASE_NAME || "moemail";
 const KV_NAMESPACE_NAME = process.env.KV_NAMESPACE_NAME || "moemail-kv";
 const CUSTOM_DOMAIN = process.env.CUSTOM_DOMAIN;
 const KV_NAMESPACE_ID = process.env.KV_NAMESPACE_ID;

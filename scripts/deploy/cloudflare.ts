@@ -5,7 +5,7 @@ const CF_ACCOUNT_ID = process.env.CLOUDFLARE_ACCOUNT_ID!;
 const CF_API_TOKEN = process.env.CLOUDFLARE_API_TOKEN;
 const CUSTOM_DOMAIN = process.env.CUSTOM_DOMAIN;
 const PROJECT_NAME = process.env.PROJECT_NAME || "moemail";
-const DATABASE_NAME = process.env.DATABASE_NAME || "moemail-db";
+const DATABASE_NAME = process.env.DATABASE_NAME || "moemail";
 const KV_NAMESPACE_NAME = process.env.KV_NAMESPACE_NAME || "moemail-kv";
 const DATABASE_ID = process.env.DATABASE_ID;
 
